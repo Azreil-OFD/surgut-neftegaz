@@ -43,7 +43,7 @@ const slide = ref(false)
     border-radius: 6px;
     position: absolute;
     background-color: white;
-    left: 35%;
+    left: 40%;
     top: 30%;
 
   }
