@@ -39,7 +39,7 @@ const resolver = ref(zodResolver(
 const onFormSubmit = async (data:any) => {
   errorForm.value = ""
   console.log(data)
-  console.log(data.states.username.value + "@local.local")
+  console.log(data.states.username.value )
   if (data.valid) {
     try {
       const result = await appwrite.account.createEmailPasswordSession(data.states.username.value + "@local.local", data.states.password.value)
