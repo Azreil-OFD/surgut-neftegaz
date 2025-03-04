@@ -30,7 +30,7 @@ onMounted(async () => {
 
 <style scoped lang="scss">
 .news_scroller {
-  height: 90vh;
+  height: 89vh;
   overflow-y: auto;
 }
 .news {
